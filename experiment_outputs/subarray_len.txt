@@ -1,0 +1,1 @@
+Mean_subarray_lengths_subsequence: 716.0Mean_subarray_lengths_point: 863.8

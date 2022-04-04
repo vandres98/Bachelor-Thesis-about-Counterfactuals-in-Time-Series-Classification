@@ -1,0 +1,19 @@
+name: ng_env
+dependencies:
+  - python==3.8
+  - bottleneck=1.3.2
+  - pip:
+    - ipykernel==5.3.4
+    - ipython-genutils==0.2.0
+    - pandas==1.1.4
+    - matplotlib==3.3.3
+    - tqdm==4.60.0
+    - wfdb==3.4.0
+    - tensorflow==2.3.0
+    - seaborn==0.11.1
+    - alibi==0.5.8
+    - tslearn==0.5.1.0
+    - torch==1.9.0
+    - fastai==1.0.58
+    - tensorflow-addons==0.14.0
+    - dtaidistance==2.2.5
