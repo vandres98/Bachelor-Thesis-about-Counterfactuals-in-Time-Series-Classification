@@ -1,3 +1,5 @@
+<span style="color:red">This repository is a copy from the original gitlab repository. Therefore there is no commit history available here. To see the original repository, please visit: [https://git.imp.fu-berlin.de/viktoa98/bachelor-thesis-about-counterfactuals-in-time-series-classification](https://git.imp.fu-berlin.de/viktoa98/bachelor-thesis-about-counterfactuals-in-time-series-classification)</span>.
+
 # Bachelor Thesis: Generating Counterfactual Explanations for Electrocardiography Classification with Native Guide
 This repository is accompanying the bachelor thesis "Generating Counterfactual Explanations for Electrocardiography Classification with Native Guide", which investigates the Native Guide method from [Instance-based Counterfactual Explanations for Time Series Classification](https://arxiv.org/pdf/2009.13211.pdf) using the [PTB-XL dataset](https://www.nature.com/articles/s41597-020-0495-6). 
 This  thesis  applies  the  method  on  the  explanation of  electrocardiogram  (ecg)  classification. Synchronization of the data was shown to be the most important contribution  to  the  method  that  enabled  the  generation  of  plausible  counterfactuals. 
@@ -25,6 +27,9 @@ run miniconda installation script:
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
     chmod +x Miniconda3-latest-Linux-x86_64.sh
     ./Miniconda3-latest-Linux-x86_64.sh
+
+### Data
+Unfortunately the data for this project exceeds the given size limit of github. To get the data, please go to the [gitlab repository](https://arxiv.org/pdf/2009.13211.pdf) and download the data from the data folder.
 
 ## Produce counterfactuals for PTB-XL data
 To generate the counterfactuals for the downloaded PTB-XL data, please run all the cells in the provided jupiter notebook [NativeGuide.ipynb](https://git.imp.fu-berlin.de/viktoa98/bachelor-thesis-about-counterfactuals-in-time-series-classification/-/blob/master/NativeGuide.ipynb) in given order. Usually you can just click on "Run All". The last cell produces the counterfactuals. To get the counterfactual of a specific query time series from the testing data you have to provide a X_test_index in the first cell. Furthermore, you can specify the class that the query should have. If both are not provided, a random query ECG sample is selected every time running the last cell.
